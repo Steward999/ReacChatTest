@@ -59,4 +59,4 @@ jobs:
           app-name: 'ReactChat'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_515D905A9E8849F6959F80D070C1F86A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_40833C0AB3A04F46BFB9A2485337AF5F }}
