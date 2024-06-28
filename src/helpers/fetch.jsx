@@ -1,6 +1,7 @@
 
 // const baseURL = process.env.REACT_APP_API_URL
 const baseURL = 'https://backchatapi.azurewebsites.net/api'
+// const baseURL = 'http://localhost:8080/api'
 
 
 // const { REACT_APP_API_URL } = process.env;

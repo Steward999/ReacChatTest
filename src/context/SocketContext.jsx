@@ -14,6 +14,8 @@ export const SocketContext = createContext();
  const SocketProvider = ({ children }) => {
 
     const { socket, online, conectarSocket, desconectarSocket } = useSocket('https://backchatapi.azurewebsites.net/');
+    // const { socket, online, conectarSocket, desconectarSocket } = useSocket('http://localhost:8080/');
+
     const {auth} = useContext(AuthContext);
     const { dispatch} = useContext(ChatContext);
 
